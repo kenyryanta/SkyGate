@@ -37,28 +37,28 @@ Whether you're a traveler or an administrator, SkyGate delivers a complete ecosy
 
 ### 🔐 Login Page
 
-![Login Page](https://github.com/AndikaRzk/SkyGate/blob/main/public/images/Login.png)  
+![Login Page](https://github.com/kenyryanta/SkyGate/blob/main/public/images/Login.png)  
 Users can securely log in to their account. The design is simple and easy to use, ensuring a quick entry to the platform.
 
 ---
 
 ### 📝 Register Page
 
-![Register Page](https://github.com/AndikaRzk/SkyGate/blob/main/public/images/Register.png)  
+![Register Page](https://github.com/kenyryanta/SkyGate/blob/main/public/images/Register.png)  
 This page allows new users to sign up for an account. The registration form includes input fields for personal details, ensuring proper validation.
 
 ---
 
 ### 🏠 Home Page
 
-![Home Page](https://github.com/AndikaRzk/SkyGate/blob/main/public/images/Home.png)  
+![Home Page](https://github.com/kenyryanta/SkyGate/blob/main/public/images/Home.png)  
 The landing page where users can start searching for flights and view offers. The layout is optimized for easy navigation and fast access to all functionalities.
 
 ---
 
 ### 🔍 Flight Search & Filter
 
-![Flight Search](https://github.com/AndikaRzk/SkyGate/blob/main/public/images/flight.jpg)  
+![Flight Search](https://github.com/kenyryanta/SkyGate/blob/main/public/images/flight.jpg)  
 Users can search for flights by specifying **origin, destination, and date**. Filtering options include choosing specific airlines, price range, and flight class (Economy or Business).
 
 ---
@@ -67,29 +67,29 @@ Users can search for flights by specifying **origin, destination, and date**. Fi
 
 #### ✈️ Step 1: Select Flight Class & Passengers
 
-![Booking Step 1](https://github.com/AndikaRzk/SkyGate/blob/main/public/images/Bookings.png) 
+![Booking Step 1](https://github.com/kenyryanta/SkyGate/blob/main/public/images/Bookings.png) 
 Users can select the **flight class** (Economy, Business or First), specify the **number of passengers**, and view facilities available in the selected class. This helps them make an informed choice based on their preferences and needs.
 
 ---
 
 #### 👤 Step 2: Passenger Details, Seat Selection & Promo
 
-![Booking Step 2](https://github.com/AndikaRzk/SkyGate/blob/main/public/images/Bookings%20Detail.png)  
+![Booking Step 2](https://github.com/kenyryanta/SkyGate/blob/main/public/images/Bookings%20Detail.png)  
 In this step, users input **personal information** for each passenger, choose their **seats** on the plane, and apply available **promo codes**. The layout ensures clarity and ease during the final confirmation process.
 
 ---
 
 ### 💳 Payment Page
 
-![Payment Page](https://github.com/AndikaRzk/SkyGate/blob/main/public/images/Payment.png)  
-![Payment Page](https://github.com/AndikaRzk/SkyGate/blob/main/public/images/Payment%20Midtrans.png)  
+![Payment Page](https://github.com/kenyryanta/SkyGate/blob/main/public/images/Payment.png)  
+![Payment Page](https://github.com/kenyryanta/SkyGate/blob/main/public/images/Payment%20Midtrans.png)  
 The payment page integrates the  **Midtrans** service, allowing users to make secure payments via multiple methods such as credit cards, e-wallets, and bank transfers.
 
 ---
 
 ### 📄 Transaction History & E-Ticket
 
-![Transaction Page](https://github.com/AndikaRzk/SkyGate/blob/main/public/images/Transaction%20History.png)  
+![Transaction Page](https://github.com/kenyryanta/SkyGate/blob/main/public/images/Transaction%20History.png)  
 After payment is confirmed, users can view their booking details and download the **e-ticket** in PDF format. Transaction history is also available for reference.
 
 ---
@@ -105,35 +105,35 @@ After payment is confirmed, users can view their booking details and download th
 ---
 
 ### 🔐 Admin Login Page  
-![Admin Login Page](https://github.com/AndikaRzk/SkyGate/blob/main/public/images/Login%20admin.png)  
+![Admin Login Page](https://github.com/kenyryanta/SkyGate/blob/main/public/images/Login%20admin.png)  
 Admins securely access the backend using this dedicated login page. It ensures that only authorized personnel can manage flights, airlines, facilities, and customer data within the system.
 
 ---
 
 ### 📊 Dashboard
 
-![Dashboard Page](https://github.com/AndikaRzk/SkyGate/blob/main/public/images/Dashboard%20admin.png)  
+![Dashboard Page](https://github.com/kenyryanta/SkyGate/blob/main/public/images/Dashboard%20admin.png)  
 Displays a summary of important metrics such as number of customers, total flights, revenue, and recent activities. A quick overview for monitoring system status.
 
 ---
 
 ### ✈️ Airlines Management
 
-![Airlines Page](https://github.com/AndikaRzk/SkyGate/blob/main/public/images/Airlines%20admin.png)  
+![Airlines Page](https://github.com/kenyryanta/SkyGate/blob/main/public/images/Airlines%20admin.png)  
 Admins can add, update, or delete airline data. This includes setting airline names, codes, and logos.
 
 ---
 
 ### 🛫 Airports Management
 
-![Airports Page](https://github.com/AndikaRzk/SkyGate/blob/main/public/images/Airports%20admin.png)  
+![Airports Page](https://github.com/kenyryanta/SkyGate/blob/main/public/images/Airports%20admin.png)  
 Used to manage airport data such as airport names, locations, and codes for both origin and destination purposes.
 
 ---
 
 ### 🛫 Flights Management
 
-![Flights Page](https://github.com/AndikaRzk/SkyGate/blob/main/public/images/Flights%20admin.png)  
+![Flights Page](https://github.com/kenyryanta/SkyGate/blob/main/public/images/Flights%20admin.png)  
 Central page for adding and managing flight schedules, including departure/arrival info, airline, class, and prices.
 
 ---
@@ -187,7 +187,7 @@ bash
 
 1. Clone the repository
 
-git clone https://github.com/AndikaRzk/SkyGate.git
+git clone https://github.com/kenyryanta/SkyGate.git
 cd skygate
 
 2. Install PHP and JavaScript dependencies
