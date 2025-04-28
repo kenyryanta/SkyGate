@@ -1,0 +1,214 @@
+/* Improved styling for better visual appeal */
+.flight-summary {
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.passenger-form {
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.passenger-form:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhanced seat map layout */
+.seat-map {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.seat {
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.seat.available {
+    background-color: #e9ecef;
+    color: #495057;
+    border: 2px solid transparent;
+}
+
+.seat.available:hover {
+    background-color: #dee2e6;
+    transform: scale(1.05);
+}
+
+.seat.selected {
+    background-color: #0d6efd;
+    color: rgb(0, 0, 0);
+    border: 2px solid #0a58ca;
+    transform: scale(1.05);
+}
+
+.seat.unavailable {
+    background-color: #f8f9fa;
+    color: #adb5bd;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* Improved seat legend */
+.seat-legend {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.seat-legend-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.seat-map-container {
+    position: relative;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+}
+
+.seat-map-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.seat-map-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 2px solid #dee2e6;
+}
+
+/* Enhanced passenger tabs */
+.passenger-tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
+}
+
+.passenger-tab {
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    background-color: #f8f9fa;
+}
+
+.passenger-tab.active {
+    background-color: #0d6efd;
+    color: white;
+    font-weight: 600;
+}
+
+/* Improved form styling */
+.form-floating label {
+    color: #6c757d;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Enhanced promo code section */
+.promo-code-section {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px dashed #dee2e6;
+}
+
+.promo-badge {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+/* Improved progress steps */
+.booking-progress {
+    margin-bottom: 40px;
+}
+
+.progress-step-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 2;
+}
+
+/* Flight info enhancements */
+.flight-info-divider {
+    position: relative;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.3);
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.flight-time {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.flight-date {
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.flight-code {
+    font-size: 0.85rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+/* Discount animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.discount-applied {
+    animation: pulse 1s infinite;
+    color: #28a745;
+}

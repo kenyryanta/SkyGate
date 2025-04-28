@@ -1,0 +1,60 @@
+.service-card {
+    transition: all 0.3s ease;
+    overflow: hidden;
+    background: linear-gradient(145deg, #ffffff, #f5f7fa);
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.icon-wrapper {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(var(--bs-primary-rgb), 0.1);
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover .icon-wrapper {
+    transform: scale(1.1);
+}
+
+.text-purple {
+    color: #6f42c1;
+}
+
+.text-orange {
+    color: #fd7e14;
+}
+
+.text-success-light {
+    color: #4caf50;
+}
+
+.rounded-4 {
+    border-radius: 1rem !important;
+}
+
+.service-card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.service-card .card-title:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(90deg, #f8f9fa, var(--bs-primary), #f8f9fa);
+    border-radius: 3px;
+}

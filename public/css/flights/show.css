@@ -1,0 +1,148 @@
+.facility-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.facility-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.facility-card img {
+    border-radius: 8px;
+    background-color: #f8f9fa; /* Light gray background for images */
+    padding: 10px;
+}
+
+.facility-card p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.flight-header {
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    border-radius: 12px;
+    padding: 30px;
+    color: white;
+    box-shadow: 0 10px 20px rgba(58, 123, 213, 0.2);
+}
+
+.timeline-wrapper {
+    position: relative;
+}
+
+.timeline-line {
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    left: 40px;
+    width: 4px;
+    background-color: #e9ecef;
+    z-index: 0;
+}
+
+.timeline-point {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+.timeline-point:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-point-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.facility-card {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.facility-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.class-tab {
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    border: 2px solid #f8f9fa;
+}
+
+.class-tab.active {
+    background-color: #f8f9fa;
+    border-color: #0d6efd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.promo-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.price-summary-card {
+    border-radius: 12px;
+    background: #f8f9fa;
+    padding: 20px;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.booking-btn {
+    background: linear-gradient(to right, #0d6efd, #0dcaf0);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 24px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(13, 110, 253, 0.3);
+}
+
+.booking-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(13, 110, 253, 0.4);
+}
+
+.flight-path-animation {
+    position: relative;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.5);
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.flight-path-animation::after {
+    content: "✈️";
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background-position: center;
+    animation: fly 3s linear infinite;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
